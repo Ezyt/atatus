@@ -1,0 +1,22 @@
+{
+    "name": "ezyt/atatus",
+    "type": "library",
+    "license": "MIT",
+    "description": "Wrapper for Atatus",
+    "keywords": ["atatus"],
+    "authors": [
+        {
+            "name": "Denis Putilin",
+            "email": "ezyt.job@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "Ezyt\\Atatus\\": "src"
+        }
+    }
+}
